@@ -1,0 +1,156 @@
+body, div, a, th, td, h1, h2, h3, h4, h5, h6, ul, li {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+html {
+	width: 100%;
+	min-width: 920px;
+}
+
+body {
+	background: url('images/bg.gif') repeat-y #F1F1E1 center top;
+	text-align: center;
+	font-size: 10pt;  
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	min-width: 920px;
+}
+
+#content {
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+	/* top right bottom left */
+	padding: 6px 20px 0px 20px;
+	text-align: left;
+	width: 880px;
+}
+
+#header {
+	background: url('images/logo.gif') no-repeat transparent left top;
+	padding-left: 120px;
+	height: 132px;
+}
+
+#header h1 {
+	font-size: 36pt;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+#navigation ul {
+	background: url('images/nav.gif') no-repeat transparent left top;
+	display: block;
+	list-style-type: none;
+	padding-top: 9px;
+	height: 31px;
+}
+
+#navigation li {
+	display: inline;
+	height: 29px;
+	font-size: 14pt;
+	margin-left: 30px;
+}
+
+#navigation a {
+	color: #313940;
+	text-decoration: none;
+}
+
+#navigation a:hover {
+	color: #665B4E;
+	text-decoration: underline;
+}
+
+#text {
+	font-size: 12pt;
+	line-height: 16pt;
+	padding: 0px 16px 32px 8px;
+}
+
+#text h2 {
+	font-size: 20pt;
+	font-weight: normal;
+	line-height: 20pt;
+}
+
+#text h3 {
+	font-size: 14pt;
+	font-weight: normal;
+	line-height: 18pt;
+}
+
+#text table {
+	width: 100%;
+}
+
+#text table td {
+	vertical-align: top;
+	width: 50%;
+}
+
+#text ul {
+	list-style-position: inside;
+	list-style-type: square;
+}
+
+#text ul.small {
+	font-size: 10pt;
+}
+
+#text ul.outside {
+    margin-left: 24px;
+	list-style-position: outside;
+}
+
+#text  hr {
+	background: url('images/line.gif') no-repeat transparent center center;
+	border: 0px;
+	height: 1px;
+	margin: 24px 0px 24px 0px;
+	
+}
+
+#intro {
+	background: url('../www.rae-engel-schoenen.de/images/belegschaft.jpg') no-repeat transparent 0px 2px;
+	padding-left: 296px;
+}
+
+#range table td {
+	padding-left: 236px;
+	height: 280px;
+	line-height: 14pt;
+}
+
+#range td.engel {
+	background: url('images/engel.jpg') no-repeat transparent 0px 0px;
+}
+
+#range td.schoenen {
+	background: url('images/schoenen.jpg') no-repeat transparent 0px 0px;
+}
+
+h2.sekretariat {
+	text-align: center;
+}
+
+table.sekretariat td {
+	text-align: center;
+}
+
+#contact {
+	background: url('images/contact.gif') no-repeat transparent 0px 0px;
+	padding-left: 216px;
+}
+
+#impress {
+	background: url('images/impress.gif') no-repeat transparent 0px 0px;
+	padding-top: 107px;
+}
+
+#impress  h2 {
+	display: none;
+}
